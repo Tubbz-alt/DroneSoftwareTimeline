@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<!-- Created with gnuclad 0.2.4 -->
+
+<svg
+  xmlns='http://www.w3.org/2000/svg'
+  xmlns:svg='http://www.w3.org/2000/svg'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape'
+  xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd'
+  xmlns:dc='http://purl.org/dc/elements/1.1/'
+  xmlns:cc='http://creativecommons.org/ns#'
+  xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+  version='1.1'
+  width='1220'
+  height='640'
+>
+
+<title>Open Source Drone Controller Software Timeline</title>
+
+<defs>
+
+  <linearGradient id='__yearline' x1='0' y1='0' x2='1' y2='0'>
+    <stop stop-color='#037' offset='0' stop-opacity='1' />
+    <stop stop-color='#37d' offset='1' stop-opacity='1' />
+  </linearGradient>
+
+  <linearGradient id='__infobox_fill' x1='0' y1='0' x2='0' y2='1'>
+    <stop stop-color='#f4e151' offset='0' stop-opacity='1' />
+    <stop stop-color='#f4f151' offset='1' stop-opacity='1' />
+  </linearGradient>
+  <linearGradient id='__infobox_stroke' x1='0' y1='0' x2='0' y2='1'>
+    <stop stop-color='#f4f151' offset='0' stop-opacity='1' />
+    <stop stop-color='#f4e151' offset='1' stop-opacity='1' />
+  </linearGradient>
+  <filter id='__infobox_shadow' color-interpolation-filters='sRGB'>
+    <feGaussianBlur stdDeviation='5' />
+  </filter>
+
+
+  <circle id='__connectors_start' cx='0' cy='0' r='4' stroke='none' />
+  <marker id='__connector_0' stroke='none' markerUnits='userSpaceOnUse' style='overflow:visible;'>
+    <use xlink:href='#__connectors_start' fill='#eda42c'  />
+  </marker>
+<rect id='__fadeout' height='1' width='10' y='-0.5' x='0'/>  <linearGradient id='__fadeout_OpenPilot' x1='0' y1='0' x2='9.09091' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#1b87dc' offset='0' stop-opacity='1' />
+    <stop stop-color='#1b87dc' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_OpenPilot' markerWidth='9.09091' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_OpenPilot)' />
+  </marker>
+  <linearGradient id='__fadeout_TauLabs' x1='0' y1='0' x2='9.60226' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#f90e0e' offset='0' stop-opacity='1' />
+    <stop stop-color='#f90e0e' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_TauLabs' markerWidth='9.60226' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_TauLabs)' />
+  </marker>
+  <linearGradient id='__fadeout_dRonin' x1='0' y1='0' x2='10' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#f08009' offset='0' stop-opacity='1' />
+    <stop stop-color='#f08009' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_dRonin' markerWidth='10' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_dRonin)' />
+  </marker>
+  <linearGradient id='__fadeout_MultiWii' x1='0' y1='0' x2='8.45421' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#bbb3af' offset='0' stop-opacity='1' />
+    <stop stop-color='#bbb3af' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_MultiWii' markerWidth='8.45421' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_MultiWii)' />
+  </marker>
+  <linearGradient id='__fadeout_Baseflight' x1='0' y1='0' x2='8.58682' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#e1581d' offset='0' stop-opacity='1' />
+    <stop stop-color='#e1581d' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Baseflight' markerWidth='8.58682' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Baseflight)' />
+  </marker>
+  <linearGradient id='__fadeout_Butterflight' x1='0' y1='0' x2='10' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#a25c28' offset='0' stop-opacity='1' />
+    <stop stop-color='#a25c28' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Butterflight' markerWidth='10' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Butterflight)' />
+  </marker>
+  <linearGradient id='__fadeout_Raceflight' x1='0' y1='0' x2='10' y2='0' gradientUnits='userSpaceOnUse'>
+    <stop stop-color='#bf2915' offset='0' stop-opacity='1' />
+    <stop stop-color='#bf2915' offset='1' stop-opacity='0' />
+  </linearGradient>
+  <marker id='__stop_Raceflight' markerWidth='10' markerHeight='1' style='overflow:visible;'>
+    <use xlink:href='#__fadeout' style='fill:url(#__fadeout_Raceflight)' />
+  </marker>
+
+<!-- BEGIN additional SVG images - definitions -->
+
+<!-- END additional SVG images - definitions -->
+
+</defs>
+
+<g inkscape:label='Background' inkscape:groupmode='layer' id='layer_background' >
+  <rect x='0' y='0' width='1220' height='640' rx='15' ry='15' fill='#fff' />
+</g>
+
+<g inkscape:label='Year Rulers' inkscape:groupmode='layer' id='layer_yearrulers' stroke-width='1' stroke='#eee'>
+  <line x1='10' y1='0' x2='10' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='18' y1='0' x2='18' y2='640' />
+    <line x1='26' y1='0' x2='26' y2='640' />
+    <line x1='35' y1='0' x2='35' y2='640' />
+    <line x1='43' y1='0' x2='43' y2='640' />
+    <line x1='51' y1='0' x2='51' y2='640' />
+    <line x1='60' y1='0' x2='60' y2='640' />
+    <line x1='68' y1='0' x2='68' y2='640' />
+    <line x1='76' y1='0' x2='76' y2='640' />
+    <line x1='85' y1='0' x2='85' y2='640' />
+    <line x1='93' y1='0' x2='93' y2='640' />
+    <line x1='101' y1='0' x2='101' y2='640' />
+  <line x1='110' y1='0' x2='110' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='118' y1='0' x2='118' y2='640' />
+    <line x1='126' y1='0' x2='126' y2='640' />
+    <line x1='135' y1='0' x2='135' y2='640' />
+    <line x1='143' y1='0' x2='143' y2='640' />
+    <line x1='151' y1='0' x2='151' y2='640' />
+    <line x1='160' y1='0' x2='160' y2='640' />
+    <line x1='168' y1='0' x2='168' y2='640' />
+    <line x1='176' y1='0' x2='176' y2='640' />
+    <line x1='185' y1='0' x2='185' y2='640' />
+    <line x1='193' y1='0' x2='193' y2='640' />
+    <line x1='201' y1='0' x2='201' y2='640' />
+  <line x1='210' y1='0' x2='210' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='218' y1='0' x2='218' y2='640' />
+    <line x1='226' y1='0' x2='226' y2='640' />
+    <line x1='235' y1='0' x2='235' y2='640' />
+    <line x1='243' y1='0' x2='243' y2='640' />
+    <line x1='251' y1='0' x2='251' y2='640' />
+    <line x1='260' y1='0' x2='260' y2='640' />
+    <line x1='268' y1='0' x2='268' y2='640' />
+    <line x1='276' y1='0' x2='276' y2='640' />
+    <line x1='285' y1='0' x2='285' y2='640' />
+    <line x1='293' y1='0' x2='293' y2='640' />
+    <line x1='301' y1='0' x2='301' y2='640' />
+  <line x1='310' y1='0' x2='310' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='318' y1='0' x2='318' y2='640' />
+    <line x1='326' y1='0' x2='326' y2='640' />
+    <line x1='335' y1='0' x2='335' y2='640' />
+    <line x1='343' y1='0' x2='343' y2='640' />
+    <line x1='351' y1='0' x2='351' y2='640' />
+    <line x1='360' y1='0' x2='360' y2='640' />
+    <line x1='368' y1='0' x2='368' y2='640' />
+    <line x1='376' y1='0' x2='376' y2='640' />
+    <line x1='385' y1='0' x2='385' y2='640' />
+    <line x1='393' y1='0' x2='393' y2='640' />
+    <line x1='401' y1='0' x2='401' y2='640' />
+  <line x1='410' y1='0' x2='410' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='418' y1='0' x2='418' y2='640' />
+    <line x1='426' y1='0' x2='426' y2='640' />
+    <line x1='435' y1='0' x2='435' y2='640' />
+    <line x1='443' y1='0' x2='443' y2='640' />
+    <line x1='451' y1='0' x2='451' y2='640' />
+    <line x1='460' y1='0' x2='460' y2='640' />
+    <line x1='468' y1='0' x2='468' y2='640' />
+    <line x1='476' y1='0' x2='476' y2='640' />
+    <line x1='485' y1='0' x2='485' y2='640' />
+    <line x1='493' y1='0' x2='493' y2='640' />
+    <line x1='501' y1='0' x2='501' y2='640' />
+  <line x1='510' y1='0' x2='510' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='518' y1='0' x2='518' y2='640' />
+    <line x1='526' y1='0' x2='526' y2='640' />
+    <line x1='535' y1='0' x2='535' y2='640' />
+    <line x1='543' y1='0' x2='543' y2='640' />
+    <line x1='551' y1='0' x2='551' y2='640' />
+    <line x1='560' y1='0' x2='560' y2='640' />
+    <line x1='568' y1='0' x2='568' y2='640' />
+    <line x1='576' y1='0' x2='576' y2='640' />
+    <line x1='585' y1='0' x2='585' y2='640' />
+    <line x1='593' y1='0' x2='593' y2='640' />
+    <line x1='601' y1='0' x2='601' y2='640' />
+  <line x1='610' y1='0' x2='610' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='618' y1='0' x2='618' y2='640' />
+    <line x1='626' y1='0' x2='626' y2='640' />
+    <line x1='635' y1='0' x2='635' y2='640' />
+    <line x1='643' y1='0' x2='643' y2='640' />
+    <line x1='651' y1='0' x2='651' y2='640' />
+    <line x1='660' y1='0' x2='660' y2='640' />
+    <line x1='668' y1='0' x2='668' y2='640' />
+    <line x1='676' y1='0' x2='676' y2='640' />
+    <line x1='685' y1='0' x2='685' y2='640' />
+    <line x1='693' y1='0' x2='693' y2='640' />
+    <line x1='701' y1='0' x2='701' y2='640' />
+  <line x1='710' y1='0' x2='710' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='718' y1='0' x2='718' y2='640' />
+    <line x1='726' y1='0' x2='726' y2='640' />
+    <line x1='735' y1='0' x2='735' y2='640' />
+    <line x1='743' y1='0' x2='743' y2='640' />
+    <line x1='751' y1='0' x2='751' y2='640' />
+    <line x1='760' y1='0' x2='760' y2='640' />
+    <line x1='768' y1='0' x2='768' y2='640' />
+    <line x1='776' y1='0' x2='776' y2='640' />
+    <line x1='785' y1='0' x2='785' y2='640' />
+    <line x1='793' y1='0' x2='793' y2='640' />
+    <line x1='801' y1='0' x2='801' y2='640' />
+  <line x1='810' y1='0' x2='810' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='818' y1='0' x2='818' y2='640' />
+    <line x1='826' y1='0' x2='826' y2='640' />
+    <line x1='835' y1='0' x2='835' y2='640' />
+    <line x1='843' y1='0' x2='843' y2='640' />
+    <line x1='851' y1='0' x2='851' y2='640' />
+    <line x1='860' y1='0' x2='860' y2='640' />
+    <line x1='868' y1='0' x2='868' y2='640' />
+    <line x1='876' y1='0' x2='876' y2='640' />
+    <line x1='885' y1='0' x2='885' y2='640' />
+    <line x1='893' y1='0' x2='893' y2='640' />
+    <line x1='901' y1='0' x2='901' y2='640' />
+  <line x1='910' y1='0' x2='910' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='918' y1='0' x2='918' y2='640' />
+    <line x1='926' y1='0' x2='926' y2='640' />
+    <line x1='935' y1='0' x2='935' y2='640' />
+    <line x1='943' y1='0' x2='943' y2='640' />
+    <line x1='951' y1='0' x2='951' y2='640' />
+    <line x1='960' y1='0' x2='960' y2='640' />
+    <line x1='968' y1='0' x2='968' y2='640' />
+    <line x1='976' y1='0' x2='976' y2='640' />
+    <line x1='985' y1='0' x2='985' y2='640' />
+    <line x1='993' y1='0' x2='993' y2='640' />
+    <line x1='1001' y1='0' x2='1001' y2='640' />
+  <line x1='1010' y1='0' x2='1010' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='1018' y1='0' x2='1018' y2='640' />
+    <line x1='1026' y1='0' x2='1026' y2='640' />
+    <line x1='1035' y1='0' x2='1035' y2='640' />
+    <line x1='1043' y1='0' x2='1043' y2='640' />
+    <line x1='1051' y1='0' x2='1051' y2='640' />
+    <line x1='1060' y1='0' x2='1060' y2='640' />
+    <line x1='1068' y1='0' x2='1068' y2='640' />
+    <line x1='1076' y1='0' x2='1076' y2='640' />
+    <line x1='1085' y1='0' x2='1085' y2='640' />
+    <line x1='1093' y1='0' x2='1093' y2='640' />
+    <line x1='1101' y1='0' x2='1101' y2='640' />
+  <line x1='1110' y1='0' x2='1110' y2='640' stroke-width='2' stroke='#ddd' />
+    <line x1='1118' y1='0' x2='1118' y2='640' />
+    <line x1='1126' y1='0' x2='1126' y2='640' />
+    <line x1='1135' y1='0' x2='1135' y2='640' />
+    <line x1='1143' y1='0' x2='1143' y2='640' />
+    <line x1='1151' y1='0' x2='1151' y2='640' />
+    <line x1='1160' y1='0' x2='1160' y2='640' />
+    <line x1='1168' y1='0' x2='1168' y2='640' />
+    <line x1='1176' y1='0' x2='1176' y2='640' />
+    <line x1='1185' y1='0' x2='1185' y2='640' />
+    <line x1='1193' y1='0' x2='1193' y2='640' />
+    <line x1='1201' y1='0' x2='1201' y2='640' />
+  <line x1='1210' y1='0' x2='1210' y2='640' stroke-width='2' stroke='#ddd' />
+</g>
+
+<g inkscape:label='Domains' inkscape:groupmode='layer' id='layer_domains' >
+</g>
+
+<g inkscape:label='Connectors' inkscape:groupmode='layer' id='layer_connectors'
+style='opacity:0.6;' >
+  <line x1='960' y1='322' x2='960' y2='380' stroke='#eda42c' stroke-width='3' stroke-dasharray='3,3' marker-start='url(#__connector_0)' />
+</g>
+
+<g inkscape:label='Lines' inkscape:groupmode='layer' id='layer_lines'
+ style='fill:none;stroke-width:4;' >
+  <path id='__line_LibrePilot' d='M 560 110 C 635,110 585,80 660,80 L 660 80 L 1151 80' stroke='#5bc5f0' style='stroke-width:4;' />
+  <path id='__line_dRonin' d='M 393 140 C 449.25,140 411.75,170 468,170 L 468 170 L 1068 170' stroke='#f08009' style='stroke-width:4;' marker-end='url(#__stop_dRonin)' />
+  <path id='__line_TauLabs' d='M 293 110 C 368,110 318,140 393,140 L 393 140 L 693 140' stroke='#f90e0e' style='stroke-width:4.16569;' marker-end='url(#__stop_TauLabs)' />
+  <path id='__line_OpenPilot' d='M 93 110 L 668 110' stroke='#1b87dc' style='stroke-width:4.4;' marker-end='url(#__stop_OpenPilot)' />
+  <path id='__line_INAV' d='M 543 380 C 593.25,380 559.75,440 610,440 L 610 440 L 1151 440' stroke='#60b5da' style='stroke-width:4;' />
+  <path id='__line_Hackflight' d='M 743 380 C 818,380 768,410 843,410 L 843 410 L 1151 410' stroke='#817868' style='stroke-width:4;' />
+  <path id='__line_Butterflight' d='M 826 320 C 901,320 851,290 926,290 L 926 290 L 1001 290' stroke='#a25c28' style='stroke-width:4;' marker-end='url(#__stop_Butterflight)' />
+  <path id='__line_Raceflight' d='M 610 320 C 685,320 635,350 710,350 L 710 350 L 760 350' stroke='#bf2915' style='stroke-width:4;' marker-end='url(#__stop_Raceflight)' />
+  <path id='__line_Betaflight' d='M 543 380 C 593.25,380 559.75,320 610,320 L 610 320 L 1151 320' stroke='#eda42c' style='stroke-width:4.29282;' />
+  <path id='__line_Cleanflight' d='M 443 290 C 518,290 468,380 543,380 L 543 380 L 1151 380' stroke='#3dc52f' style='stroke-width:4.5798;' />
+  <path id='__line_Baseflight' d='M 43 260 C 93.25,260 59.75,290 110,290 L 110 290 L 710 290' stroke='#e1581d' style='stroke-width:4.6583;' marker-end='url(#__stop_Baseflight)' />
+  <path id='__line_MultiWii' d='M 43 260 L 910 260' stroke='#bbb3af' style='stroke-width:4.73137;' marker-end='url(#__stop_MultiWii)' />
+  <path id='__line_PX4' d='M 260 530 C 335,530 285,560 360,560 L 360 560 L 1151 560' stroke='#000000' style='stroke-width:4;' />
+  <path id='__line_ArduPilot' d='M 93 530 L 1151 530' stroke='#f1c40f' style='stroke-width:4.16569;' />
+</g>
+
+<g inkscape:label='Dots' inkscape:groupmode='layer' id='layer_dots'
+ style='stroke:none;' >
+  <circle id='__dot_LibrePilot' cx='660' cy='80' r='10' fill='#5bc5f0' stroke='none' />
+  <circle id='__dot_dRonin' cx='468' cy='170' r='10' fill='#f08009' stroke='none' />
+  <circle id='__dot_TauLabs' cx='393' cy='140' r='10.1892' fill='#f90e0e' stroke='none' />
+  <circle id='__dot_OpenPilot' cx='93' cy='110' r='10.4142' fill='#1b87dc' stroke='none' />
+    <circle cx='651' cy='110' r='7.28995' fill='#1b87dc' stroke='none' />
+  <circle id='__dot_INAV' cx='610' cy='440' r='10' fill='#60b5da' stroke='none' />
+  <circle id='__dot_Hackflight' cx='843' cy='410' r='10' fill='#817868' stroke='none' />
+  <circle id='__dot_Butterflight' cx='926' cy='290' r='10' fill='#a25c28' stroke='none' />
+  <circle id='__dot_Raceflight' cx='710' cy='350' r='10' fill='#bf2915' stroke='none' />
+  <circle id='__dot_Betaflight' cx='610' cy='320' r='10.3161' fill='#eda42c' stroke='none' />
+  <circle id='__dot_Cleanflight' cx='543' cy='380' r='10.5651' fill='#3dc52f' stroke='none' />
+  <circle id='__dot_Baseflight' cx='110' cy='290' r='10.6266' fill='#e1581d' stroke='none' />
+  <circle id='__dot_MultiWii' cx='43' cy='260' r='10.6818' fill='#bbb3af' stroke='none' />
+  <circle id='__dot_PX4' cx='360' cy='560' r='10' fill='#000000' stroke='none' />
+  <circle id='__dot_ArduPilot' cx='93' cy='530' r='10.1892' fill='#f1c40f' stroke='none' />
+</g>
+
+<g inkscape:label='Icons' inkscape:groupmode='layer' id='layer_icons'>
+</g>
+
+<g inkscape:label='Labels' inkscape:groupmode='layer' id='layer_labels' 
+ style='font-size:20px;stroke:none;fill:#000;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;' >
+  <text x='670' y='73'  >LibrePilot</text>
+  <text x='478' y='163'  >dRonin</text>
+  <text x='403' y='133'  >TauLabs</text>
+  <text x='103' y='103'  >OpenPilot</text>
+    <text x='658' y='103' >OPNG</text>
+  <text x='620' y='433'  >INAV</text>
+  <text x='853' y='403'  >Hackflight</text>
+  <text x='936' y='283'  >Butterflight</text>
+  <text x='720' y='343'  >Raceflight</text>
+  <text x='620' y='313'  >Betaflight</text>
+  <text x='553' y='373'  >Cleanflight</text>
+  <text x='120' y='283'  >Baseflight</text>
+  <text x='53' y='253'  >MultiWii</text>
+  <text x='370' y='553'  >PX4</text>
+  <text x='103' y='523'  >ArduPilot</text>
+</g>
+
+<g inkscape:label='Yearlines' inkscape:groupmode='layer' id='layer_yearlines' 
+ style='stroke:none;fill:url(#__yearline);' >
+  <rect x='0' y='0' rx='5' ry='5' width='1220' height='35' />
+  <rect x='0' y='605' rx='5' ry='5' width='1220' height='35' />
+  <g style='font-size:24px;stroke:none;fill:#fff;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;text-anchor:middle;' >
+    <text x='60' y='26'><tspan>2009</tspan></text>
+    <text x='60' y='631'><tspan>2009</tspan></text>
+    <text x='160' y='26'><tspan>2010</tspan></text>
+    <text x='160' y='631'><tspan>2010</tspan></text>
+    <text x='260' y='26'><tspan>2011</tspan></text>
+    <text x='260' y='631'><tspan>2011</tspan></text>
+    <text x='360' y='26'><tspan>2012</tspan></text>
+    <text x='360' y='631'><tspan>2012</tspan></text>
+    <text x='460' y='26'><tspan>2013</tspan></text>
+    <text x='460' y='631'><tspan>2013</tspan></text>
+    <text x='560' y='26'><tspan>2014</tspan></text>
+    <text x='560' y='631'><tspan>2014</tspan></text>
+    <text x='660' y='26'><tspan>2015</tspan></text>
+    <text x='660' y='631'><tspan>2015</tspan></text>
+    <text x='760' y='26'><tspan>2016</tspan></text>
+    <text x='760' y='631'><tspan>2016</tspan></text>
+    <text x='860' y='26'><tspan>2017</tspan></text>
+    <text x='860' y='631'><tspan>2017</tspan></text>
+    <text x='960' y='26'><tspan>2018</tspan></text>
+    <text x='960' y='631'><tspan>2018</tspan></text>
+    <text x='1060' y='26'><tspan>2019</tspan></text>
+    <text x='1060' y='631'><tspan>2019</tspan></text>
+    <text x='1160' y='26'><tspan>2020</tspan></text>
+    <text x='1160' y='631'><tspan>2020</tspan></text>
+  </g>
+</g>
+
+<g inkscape:label='Infobox' inkscape:groupmode='layer' id='layer_infobox'
+ style='stroke:none;fill:#000;font-family:Liberation Sans, Arial, Helvetica;-inkscape-font-specification:Liberation Sans, Arial, Helvetica;' >
+  <rect x='10' y='45' width='458' height='32' rx='10' ry='10' fill='#000' filter='url(#__infobox_shadow)' opacity='0.6' />
+  <rect x='10' y='45' width='458' height='32' rx='10' ry='10' fill='url(#__infobox_fill)' stroke='url(#__infobox_stroke)' stroke-width='2' />
+  <text x='16' y='66'><tspan style='font-size:19px;font-weight:bold;'>Open Source Drone Controller Software Timeline</tspan></text>
+  <text x='16' y='79'><tspan style='font-size:12px;'></tspan></text>
+</g>
+
+<!-- BEGIN additional images -->
+
+<g inkscape:label='Included PNG Images' inkscape:groupmode='layer' id='layer_included_png'>
+</g>
+
+<g inkscape:label='Included SVG Images' inkscape:groupmode='layer' id='layer_included_svg'>
+</g>
+
+<!-- END additional images -->
+
+</svg>
