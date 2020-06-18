@@ -3,3 +3,6 @@ This project is inspired by the project [LinuxTimeline](https://github.com/Fabio
 
 ### Usage
     gnuclad drone_software.csv SVG drone_software.conf
+
+### The output cladogram
+![Drone Software Timeline](./drone_software.svg)
